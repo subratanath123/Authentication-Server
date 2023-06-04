@@ -1,0 +1,190 @@
+body {
+    background-color: #07a1e4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.internal-autofill-selected, .extra-lg-input {
+    background-color: #f6f4f4; /* Replace with your desired color */
+}
+
+.extra-lg-input:focus {
+    background-color: #f6f4f4 !important; /* Replace with your desired color */
+}
+
+.extra-lg-input:placeholder-shown {
+    background-color: #f6f4f4 !important; /* Change background color when preselected */
+}
+
+.cover-image {
+    background-image: url(../contents/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 28%;
+    margin: 50px auto;
+}
+
+.btn-lg {
+    white-space: normal; /* Allow text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add an ellipsis if the text is too long */
+}
+
+/* Adjust the background properties for larger screens */
+@media (min-width: 768px) {
+    #cover-image {
+        background-size: contain; /* Maintain aspect ratio, no cropping */
+        height: 400px; /* Adjust height as needed for larger screens */
+    }
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=checkbox].rememberMe:checked:after {
+    content: '';
+    position: absolute;
+    height: 60%;
+    width: 30%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-22%) rotate(45deg);
+    transform: translateY(-22%) rotate(45deg);
+    border-right: 2px solid #07a1e4;
+    border-bottom: 2px solid #07a1e4;
+}
+
+input[type=checkbox].rememberMe {
+    border: 2px solid rgb(5,160,228) !important;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff; /* White background */
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box
+}
+
+.passwordInput {
+    padding-right: 40px
+}
+
+.passwordBtn {
+    text-decoration: none;
+    color: #07a1e4;
+    font-weight: 500;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.passwordViewPinImg {
+    margin-right: 0;
+    width: 19px;
+    height: 17px
+}
+
+.appleImg {
+    margin-right: 10px;
+    width: 94px;
+    height: 25px
+}
+
+.googleImg {
+    margin-right: 10px;
+    width: 94px;
+    height: 25px
+}
+
+.forgetPssSpan {
+    display: flex;
+    justify-content: center
+}
+
+.forgetPassAnchor {
+    text-decoration: none;
+    color: #07a1e4;
+    font-weight: 500
+}
+
+#signup {
+    color: #07a1e4
+}
+
+.myform {
+    background-color: white;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    padding: 4.2rem 5.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tx-tfm {
+    text-transform: uppercase;
+    background-color: #07a1e4;
+}
+
+.mybtn {
+    border-radius: 7px;
+}
+
+.login-or {
+    position: relative;
+    color: #ecd6d6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.span-or {
+    display: block;
+    position: absolute;
+    color: #353535;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+}
+
+.hr-or {
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.google {
+    color: #666;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+
+form .error {
+    color: #ff0000;
+}
+
+#second {
+    display: none;
+}

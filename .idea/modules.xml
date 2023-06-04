@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AuthorizationServer.iml" filepath="$PROJECT_DIR$/.idea/modules/AuthorizationServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AuthorizationServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AuthorizationServer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/authorization.server.iml" filepath="$PROJECT_DIR$/.idea/modules/authorization.server.iml" />
+    </modules>
+  </component>
+</project>
